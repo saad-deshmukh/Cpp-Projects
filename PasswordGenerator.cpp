@@ -10,8 +10,8 @@ using namespace std;
 string passwordGenerator(int size, int num = 0, int symb = 0)   {
     string resultPassword = "";
     string numbers = "1234567890";
-    string alphabets = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
-    string symbols = "!~#$&_-=?/";
+    string alphabets = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm";
+    string symbols = "#!?~_/&-$=";
     srand(time(0));
 
     while (size)    {
