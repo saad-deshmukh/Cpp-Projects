@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# C++
+*.exe
+*.o
+
+# VSCode settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
